@@ -1,2 +1,13 @@
-# Workspace-Requests-Sim
-This Python program generates a synthetic dataset simulating workspace booking requests in a corporate environment. It creates records, each representing an employee’s request for a workspace based on their hierarchy level, department, and workspace preferences. The final dataset is saved as a CSV file for further analysis or modeling.
+# Workspace Request Simulator
+
+This is a simulation project for dynamic workspace allocation in a medium-sized tech company.  
+There's real-world constraints such as employee hierarchy, workspace types, and department-specific requests,etc included in the code.
+
+## Features
+
+- Theres a L1 to L5 employee hierarchy
+- Multiple workspace types: private cabins, hot desks, meeting rooms, etc.
+- Priority-based allocation logic (Feel free to add your own)
+- CSV generation for test data and results.
+
+Detailed assumptions about the hierarchy, workspace distribution, and labeling are available in the documentation.
